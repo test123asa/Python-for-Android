@@ -53,4 +53,12 @@
     ./distribute.sh -m "requests==0.10.0 pyjnius android sqlite3 msgpack openssl pyopenssl twisted"
 
 
+二次开发文件
+    
+    https://github.com/kivy/python-for-android/blob/master/src/src/org/renpy/android/PythonActivity.java
+    修改调用python的应用层文件
+    
+    https://github.com/kivy/python-for-android/blob/master/src/jni/application/python/start.c
+    添加参数运行指定路径python文件
+
 
